@@ -1,0 +1,13 @@
+.header-bar-container {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+
+  .header-content {
+    font-size: 2em;
+    font-family: auto;
+  }
+}

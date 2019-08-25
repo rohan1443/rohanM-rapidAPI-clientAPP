@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectorBar React component testing SelectorBar componenet rendered correctly without crashing 1`] = `
+<div
+  className="selection-bar-container"
+>
+  <div
+    className="selection-bar-content"
+  >
+    <div
+      className="selector country"
+    >
+       
+       
+    </div>
+    <div
+      className="selector langloc"
+    >
+       
+       
+    </div>
+  </div>
+</div>
+`;

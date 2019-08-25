@@ -1,0 +1,60 @@
+.calendar-section {
+
+  .calendar-navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+  
+    button:focus {outline:0;}
+    
+    .flight-search {
+      cursor: pointer;
+      font-size: 1.1em;
+      background: #e0e0e0;
+      border: none;
+      padding: 5px 10px;
+      box-shadow: #ccc 4px 5px 4px;
+  
+    }
+  }
+
+  .calendar-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .route-details {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 15px;
+    }
+
+    .route-message {
+      font-size: 1.4em;
+      height: 40vh;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+
+
+    .calendar-comp {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .price-list-calendar {
+        width: 60%;
+  
+        .calendar-layout {
+          height: 65px;
+          width: 20%;
+          max-width: none;
+        }
+      }
+    }
+  }
+}

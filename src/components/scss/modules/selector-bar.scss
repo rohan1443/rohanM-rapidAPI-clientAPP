@@ -1,0 +1,17 @@
+.selection-bar-container {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #000;
+  padding: 10px;
+  background: #e0e0e0;
+  
+  .selection-bar-content {
+    display: flex;
+    flex-direction: row;
+
+    .selector {
+      padding: 5px;
+      margin: 0 10px;
+    }
+  }
+}

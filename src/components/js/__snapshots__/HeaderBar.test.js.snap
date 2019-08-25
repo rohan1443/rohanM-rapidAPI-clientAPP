@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component testing for Header Bar matching snapshot 1`] = `
+<div
+  className="header-bar-container"
+>
+  <div
+    className="header-content"
+  >
+    CHEAP TAKEOFFS
+  </div>
+</div>
+`;
