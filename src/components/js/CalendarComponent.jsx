@@ -104,7 +104,7 @@ class CalendarComponent extends Component {
                 <div className="route"> {`End Date: ${endDate}`}</div>            
               </div>
               <div className="calendar-comp">
-                {showLoader && (<div className>{LOADING_WAIT.toUpperCase()}</div>)}
+                {showLoader && (<div>{LOADING_WAIT.toUpperCase()}</div>)}
                 <Calendar
                   className="price-list-calendar"
                   tileClassName="calendar-layout"
